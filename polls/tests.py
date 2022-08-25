@@ -107,3 +107,7 @@ class QuestionIndexViewTests(TestCase):
             response.context['latest_question_list'],
             [second_question, first_question]
         )
+
+
+class QuestionDetailViewTests(TestCase):
+    pass
