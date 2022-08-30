@@ -5,7 +5,8 @@ from .models import Choice, Question
 
 # Customize your administration model here.
 class ChoiceInline(admin.modelAdmin):
-    pass
+    model = Choice
+    extra = 3
 
 
 class QuestionAdmin(admin.ModelAdmin):
