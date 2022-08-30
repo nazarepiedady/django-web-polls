@@ -4,7 +4,7 @@ from .models import Choice, Question
 
 
 # Customize your administration model here.
-class ChoiceInline(admin.modelAdmin):
+class ChoiceInline(admin.StackedInline):
     model = Choice
     extra = 3
 
